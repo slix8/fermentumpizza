@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fermentum Pizzeria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="nav">
+    <a href="#" class="logo">Fermentum</a>
+    <ul>
+      <li><a href="#about">Über uns</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <video autoplay muted loop playsinline id="hero-video">
+      <source src="assets/hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <p class="hero-sub">Neapoletanische Pizzakunst</p>
+      <h1>Fermentum<br /><em>Pizzeria</em></h1>
+      <a href="#menu" class="btn">Menu entdecken</a>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Runterscrollen">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container two-col">
+      <div class="col-text">
+        <span class="label">Unsere Geschichte</span>
+        <h2>Slow Food.<br />Echte Zutaten.</h2>
+        <p>
+          Fermentum steht für langen Teig-Fermentationsprozesse, sorgfältig
+          ausgesuchte Zutaten und die Tradition der neapolitanischen Pizzakunst —
+          serviert mitten in der Schweiz.
+        </p>
+        <p>
+          Unser Teig ruht mindestens 48 Stunden, damit er leicht, aromatisch und
+          bekömmlich wird. Qualität vor Quantität — das ist unser Versprechen.
+        </p>
+      </div>
+      <div class="col-image">
+        <img src="assets/about.jpg" alt="Pizzateig wird geknetet" />
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="container">
+      <span class="label centered">Was wir bieten</span>
+      <h2 class="centered">Unsere Spezialitäten</h2>
+
+      <div class="menu-grid">
+
+        <div class="menu-item">
+          <span class="menu-number">01</span>
+          <h3>Margherita D.O.P.</h3>
+          <p>Tomaten San Marzano, Fior di Latte, Basilikum, Olivenöl extra vergine</p>
+          <span class="price">CHF 19.–</span>
+        </div>
+
+        <div class="menu-item">
+          <span class="menu-number">02</span>
+          <h3>Diavola</h3>
+          <p>Tomaten San Marzano, Fior di Latte, pikante Salami, Chiliflocken</p>
+          <span class="price">CHF 22.–</span>
+        </div>
+
+        <div class="menu-item">
+          <span class="menu-number">03</span>
+          <h3>Burrata &amp; Prosciutto</h3>
+          <p>Pomodorini, Burrata fresca, San Daniele-Schinken, Rucola, Parmesan</p>
+          <span class="price">CHF 26.–</span>
+        </div>
+
+        <div class="menu-item">
+          <span class="menu-number">04</span>
+          <h3>Funghi &amp; Tartufo</h3>
+          <p>Crème fraîche, Pilze, Fior di Latte, Trüffelöl, frischer Thymian</p>
+          <span class="price">CHF 24.–</span>
+        </div>
+
+        <div class="menu-item">
+          <span class="menu-number">05</span>
+          <h3>Quattro Formaggi</h3>
+          <p>Fior di Latte, Gorgonzola, Pecorino, Parmigiano Reggiano, Honig</p>
+          <span class="price">CHF 23.–</span>
+        </div>
+
+        <div class="menu-item">
+          <span class="menu-number">06</span>
+          <h3>Vegetariana di Stagione</h3>
+          <p>Saisonal wechselndes Gemüse, Ricotta, Kräuteröl, Zitrone</p>
+          <span class="price">CHF 21.–</span>
+        </div>
+
+      </div>
+
+      <p class="menu-note">Das vollständige Menu ist im Restaurant erhältlich. Alle Pizzen werden im Holzofen gebacken.</p>
+    </div>
+  </section>
+
+  <!-- DIVIDER QUOTE -->
+  <section id="quote">
+    <div class="container">
+      <blockquote>
+        „Eine gute Pizza braucht Zeit —<br />
+        <em>wir nehmen sie uns.</em>"
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONTACT & HOURS -->
+  <section id="contact">
+    <div class="container three-col">
+
+      <div class="info-block">
+        <span class="label">Öffnungszeiten</span>
+        <table>
+          <tr><td>Di – Fr</td><td>11:30 – 14:00</td></tr>
+          <tr><td></td><td>17:30 – 22:00</td></tr>
+          <tr><td>Sa – So</td><td>11:30 – 22:00</td></tr>
+          <tr><td>Mo</td><td>Geschlossen</td></tr>
+        </table>
+      </div>
+
+      <div class="info-block center-block">
+        <span class="label">Adresse</span>
+        <address>
+          Fermentum Pizzeria<br />
+          Schweiz<br />
+        </address>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+        </div>
+      </div>
+
+      <div class="info-block">
+        <span class="label">Reservierung</span>
+        <p>Tische für Gruppen ab 6 Personen bitte telefonisch reservieren.</p>
+        <a href="tel:+41000000000" class="btn-outline">Anrufen</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Fermentum Pizzeria · Alle Rechte vorbehalten</p>
+    <p><a href="#">Impressum</a> · <a href="#">Datenschutz</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
